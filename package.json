@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tw:build": "tailwind -i ./src/css/tailwind.css -o ./public/css/tailwind.css"
+    "tw:build": "tailwind -i ./src/css/tailwind.css -o ./public/css/tailwind.css",
+    "tw:prod": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --minify"
   },
   "author": "",
   "license": "ISC",
