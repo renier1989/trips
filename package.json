@@ -7,7 +7,7 @@
     "tw:build": "tailwind -i ./src/css/tailwind.css -o ./public/css/tailwind.css",
     "tw:prod": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --minify",
     "predeploy": "npm run tw:prod",
-    "deploy": "gh-pages -d tw:prod"
+    "deploy": "gh-pages -d public"
   },
   "author": "",
   "license": "ISC",
